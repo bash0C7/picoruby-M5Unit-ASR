@@ -1,4 +1,4 @@
-# picoruby-M5Unit-ASR
+# picoruby-m5unit-asr
 
 A pure Ruby implementation of [M5Unit-ASR](https://docs.m5stack.com/ja/unit/Unit%20ASR) driver for PicoRuby.
 
@@ -7,7 +7,7 @@ A pure Ruby implementation of [M5Unit-ASR](https://docs.m5stack.com/ja/unit/Unit
 Add this line to your PicoRuby build configuration (`picoruby/build_config/xtensa-esp.rb`):
 
 ```ruby
-conf.gem github: 'bash0C7/picoruby-M5Unit-ASR', branch: 'main'
+conf.gem github: 'bash0C7/picoruby-m5unit-asr', branch: 'main'
 ```
 
 ## Dependencies
