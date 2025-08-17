@@ -14,11 +14,11 @@ class UnitASR
     initialize_module
   end
   
-  def add_handler(cmd_num, &block)
+  def on(cmd_num, &block)
     @command_handlers[cmd_num] = block
   end
   
-  def set_unknown_handler(&block)
+  def on_unknown(&block)
     @unknown_handler = block
   end
   
