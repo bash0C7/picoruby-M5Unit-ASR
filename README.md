@@ -1,4 +1,4 @@
-# picoruby-m5unit-asr
+# picoruby-unitasr
 
 A pure Ruby implementation of [M5Unit-ASR](https://docs.m5stack.com/ja/unit/Unit%20ASR) driver for PicoRuby.
 
