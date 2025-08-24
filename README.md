@@ -20,7 +20,9 @@ conf.gem github: 'bash0C7/picoruby-m5unit-asr', branch: 'main'
 require 'unitasr'
 require 'uart'
 
-asr = UnitASR.new(UART.new(unit: :ESP32_UART1, baudrate: 115200, txd_pin: 26, rxd_pin: 32))
+asr = UnitASR.new(UART.new(unit: :ESP32_UART1, 
+                           baudrate: 115200, 
+                           txd_pin: 26, rxd_pin: 32))
 
 # Register command handlers
 asr.on(0x17) { puts "pause detected" }
